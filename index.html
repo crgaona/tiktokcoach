@@ -1,14 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>tiktokCoach</title>
+  <meta charset="UTF-8">
+  <title>TikTokCoach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <h1>tiktokCoach</h1>
+
+  <h1>TikTokCoach</h1>
   <p>
-    Dashboard web que conecta TikTok para mostrar perfil y videos públicos
-    y calcular métricas de crecimiento.
+    Dashboard web que conecta TikTok para mostrar perfiles,
+    videos públicos y métricas de crecimiento.
   </p>
+
+  <button onclick="loginTikTok()">
+    Login with TikTok
+  </button>
+
+  <hr>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a> |
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+  <script>
+    function loginTikTok() {
+      alert(
+        "Login con TikTok requiere backend.\n" +
+        "Esta demo cumple políticas y revisión."
+      );
+    }
+  </script>
+
 </body>
 </html>
